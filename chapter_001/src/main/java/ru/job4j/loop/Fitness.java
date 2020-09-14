@@ -2,7 +2,7 @@ package ru.job4j.loop;
 
 public class Fitness {
     public static int calc(int ivan, int nik) {
-        int month = 0;
+        int month = 1;
         while (ivan< nik) {
             ivan*=3;
             nik*=2;
@@ -16,5 +16,6 @@ public class Fitness {
         System.out.println(calc(95, 90));
         System.out.println(calc(90, 95 ));
         System.out.println(calc(50, 90));
+        System.out.println(calc(90, 90));
     }
 }
